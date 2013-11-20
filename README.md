@@ -1,9 +1,21 @@
 Release status
 ==============
 
-Most of these parts are now stable and won't change much more.
+Just starting work on the KosselHawk derivitive.
+Plans:
+- Increased build volume option
+- Wheel based linear motion utilizing the slot built into the aluminum extrusion
+- SCAD models adjusted to be more parametric in relation to the extrusion options
 
-How to print Mini Kossel
+Considering:
+- Multiple hot end option
+  - Currently thinking that this will be a maximum of 2 hot ends to avoid further complicating the electronics.
+  - RAMPS 1.4 has built-in support for 5 steppers, which would allow for 2 hot ends to be driven
+  - Ideally the end effector platform will be mostly interchangable
+    - May require different length rods to accommidate the size change.
+- Secondary vertical towers to provide additional strength and additional places to mount filament spools, etc.
+
+How to print KosselHawk
 ========================
 
 * 3x plate_3x.stl (about 3x80g = 240g of plastic)
@@ -18,6 +30,11 @@ Links
 
 Pay it forward
 ==============
+
+Note:   Pay it forward is for the Primary mini kossel project located at:
+  https://github.com/jcrocholl/kossel
+
+No current plans to manage a pay it forward option on the KosselHawk derivitive.
 
 Johann is offering free printed parts for Mini Kossel:
 
