@@ -1,10 +1,10 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
-use <frame_motor.scad>;
-use <frame_top.scad>;
-use <carriage.scad>;
-use <endstop.scad>;
-use <glass_tab.scad>;
+use <../frame/frame_motor.scad>;
+use <../frame/frame_top.scad>;
+use <../motion/carriage.scad>;
+use <../frame/endstop.scad>;
+use <../frame/glass_tab.scad>;
 
 % translate([0, 0, -3]) cylinder(r=85, h=3);
 union() {

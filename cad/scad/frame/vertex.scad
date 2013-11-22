@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 $fn = 24;
 roundness = 6;

@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 radius = 7.5;
 

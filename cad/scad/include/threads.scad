@@ -7,7 +7,7 @@
  */
 
 // Examples:
-metric_thread(8, 1, 8);
+//metric_thread(8, 1, 8);
 
 //english_thread(1/4, 10, 1);
 

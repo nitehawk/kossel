@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 module frame_extruder() {
   difference() {

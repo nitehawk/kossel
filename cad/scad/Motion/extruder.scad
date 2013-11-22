@@ -1,7 +1,7 @@
 // Based on "Makergear Filament drive goes Bowden" by Luke321
 // http://www.thingiverse.com/thing:63674
 
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 filament_offset = 22.5;
 

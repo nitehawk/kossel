@@ -1,6 +1,6 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
-use <microswitch.scad>;
+use <../Misc/microswitch.scad>;
 
 thickness = 9;  // 1mm thicker than linear rail.
 width = 15;  // Same as vertical extrusion.

@@ -1,6 +1,6 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
-use <microswitch.scad>;
+use <../misc/microswitch.scad>;
 
 height = 26;
 height2 = 26;

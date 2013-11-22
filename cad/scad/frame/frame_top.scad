@@ -1,6 +1,6 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
-use <vertex.scad>;
+use <../Frame/vertex.scad>;
 
 $fn = 24;
 

@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 separation = 40;
 thickness = 6;

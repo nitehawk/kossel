@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 barrel_radius = 8;
 barrel_height = 30;

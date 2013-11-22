@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 sticky_width = 25.4;
 sticky_length = 25.4;

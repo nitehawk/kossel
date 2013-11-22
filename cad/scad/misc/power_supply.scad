@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 space = 15;  // Between horizontal OpenBeam pieces.
 

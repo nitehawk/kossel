@@ -1,4 +1,4 @@
-include <configuration.scad>;
+include <../include/configuration.scad>;
 
 module nema17() {
   // NEMA 17 stepper motor.
