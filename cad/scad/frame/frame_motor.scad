@@ -12,6 +12,8 @@ module frame_motor() {
     vertex(3*extrusion, idler_offset=0, idler_space=100);
     // KOSSEL logotype.
     translate([20.5, -10, 0]) rotate([90, -90, 30])
+      scale([0.11, 0.11, 1]) kosselhawk_logo();
+    translate([-20, -10, 0]) rotate([90, -90, -30])
       scale([0.11, 0.11, 1]) kossel_logo();
     // Motor cable paths.
     for (mirror = [-1, 1]) scale([mirror, 1, 1]) {
